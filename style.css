@@ -2,9 +2,10 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: "Freeman", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 @keyframes Animation {
     from{
@@ -489,7 +490,7 @@ body{
     font-weight: 300;
     font-style: normal;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
     
 }
@@ -498,10 +499,12 @@ body{
 }
 .message{
     width: 60%;
-    height: 60%;
-    border: 2px solid;
+    height: 80%;
+    /* border: 2px solid; */
+    border-radius: 10px;
     margin: auto;
     display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .connect-section h2 span{
     color: #B721FF;
@@ -509,6 +512,7 @@ body{
 .mes{
     width: 50%;
     height: 100%;
+    padding-top: 10px;
 }
 .con-input{
     border: 1px solid;
@@ -534,8 +538,89 @@ form{
     width: 100%;
 }
 .in{
+    /* padding: 10px 10px 0 0; */
     display: flex;
+    justify-content: flex-start;
+    height:136px
 }
 textarea{
-    max-width: 50px;
+    width: 90%;
+    height: 131px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.me{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+@media screen and (max-width:1025px) {
+  
+    .main-left{
+        margin-left: 27px;
+    }
+    .about-right h1{
+        margin-top: 34px;
+    }
+    .details{
+        margin-top: 83px;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+    .school{
+        width: 81%;
+    }
+    .detail{
+        font-size: 1.3rem;
+    }
+    .project{
+    width: 40%;
+    }
+    .message{
+        width: 86%;
+    }
+}
+@media screen and (max-width:769px){
+    .main-right img{
+        width: 343px;
+    }
+    .main-left h1 {
+        font-size: 4rem;
+    }
+    .main-left {
+        margin-left: -17px;
+    }
+    .opt ul {
+        list-style: none;
+        display: flex;
+        gap: 12px;
+        font-size: 11px;
+        margin-left: -41px;
+    }
+    .details p {
+        font-size: 0.93rem;
+    }
+    .school {
+        width: 92%;
+    }
+    .detail h5 {
+        color: #05f75a;
+        margin-top: -12px;
+    }
+    .project div {
+        height: 151px;
+        width: 304px;
+    }
+}
+
+/* mobile L */
+@media screen and (max-width:426px){
+   .size-center{
+    display: none;
+   }
+   .hire{
+    display: none;
+   }
+    
 }
