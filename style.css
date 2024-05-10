@@ -483,6 +483,9 @@ body{
 }
 
 /* MESSAGE SYSTEM */
+#sub{
+    margin-left: 86px;
+}
 
 .connect-section{
     font-family: "Montserrat", sans-serif;
@@ -490,7 +493,7 @@ body{
     font-weight: 300;
     font-style: normal;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     text-align: center;
     
 }

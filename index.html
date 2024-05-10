@@ -18,15 +18,16 @@
                 <div class="left size">
                     <img src="assets/logo.png" alt="">
                 </div>
+                <button class="menu"></button>
                 <div class="opt size-center">
                     <ul>
                         <li><a href="#" class="active">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#"> Skills</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="#">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skl"> Skills</a></li>
+                        <li><a href="#edu">Education</a></li>
+                        <li><a href="#work">Work</a></li>
                         <li><a href="#">Experience</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#conn">Contact</a></li>
                     </ul>
                 </div>
                 <div class="right size">
@@ -64,7 +65,9 @@
             </div>
         </div>
     </div>
-    <div class="about-me">
+
+    <!-- about me  -->
+    <div class="about-me" id="about">
         <div class="about-left">
             <img src="assets/me.jpg" data-tilt data-tilt-glare alt="">
         </div>
@@ -84,7 +87,7 @@
               </button>             
         </div>
     </div>
-    <div class="Skills">
+    <div class="Skills" id="skl">
         <div class="heading">
             <h1>Skills & <span>Ability</span></h1>
         </div>
@@ -99,7 +102,7 @@
 
         </div>
     </div>
-    <div class="education">
+    <div class="education" id="edu">
         <h1><i class="fa-solid fa-graduation-cap fa-xl"></i>My <span style="color: blueviolet;">Education</span></h1>
         <p>Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
         <div class="school">
@@ -122,7 +125,7 @@
 
     </div>
     </div>  
-    <div class="projects">
+    <div class="projects" id="work">
         <h2><i class="fa-solid fa-laptop-code"></i>Project <span>Made</span></h2>
         <div class="project-con">
         <div class="project">
@@ -140,30 +143,39 @@
         </div>
     </div>  
 
-        <div class="connect-section">
+        <div class="connect-section" id="conn">
             <h2><i class="fa-solid fa-headset"></i>Get in <span>Touch</span></h2>
             <div class="message">
                 <div class="mes-left mes">
                     <img src="assets/contact1.png" alt="">
                 </div>
                 <div class="mes-right mes">
-                    <form action="">
+                    <form action="https://api.web3forms.com/submit" method="post">
+                        <input type="hidden" name="access_key" value="a6b82597-5ef7-4d94-95ac-9899c201b96a">
                         <div class="con-input">
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="Name">
+                            <input type="text" name="name" placeholder="Name">
                         </div>
                         <div class="con-input">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="email" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email">
                         </div>
                         <div class="con-input">
                             <i class="fa-solid fa-phone"></i>
-                            <input type="number" placeholder="Phone">
+                            <input type="number" name="number"  placeholder="Phone">
                         </div>
                         <div class="con-input in">
                             <i class="fa-solid fa-message me"></i>
-                            <textarea name="" id="" cols="20" placeholder="Message"></textarea>
+                            <textarea id="" cols="20" name="message" placeholder="Message" required></textarea>
                         </div>
+                         <!-- hCaptcha Spam Protection -->
+                        <div class="h-captcha" data-captcha="true"></div>
+
+                        <button type="submit" class="cssbuttons-io-button" id="sub"> Submit
+                            <div class="icon">
+                              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+                            </div>
+                          </button>
                     </form>
                 </div>
             </div>
@@ -172,6 +184,7 @@
     <!-- script -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://kit.fontawesome.com/da869572f3.js" crossorigin="anonymous"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="tilt.js"></script>
     <script>
         var type = new Typed(".auto-typed", {
