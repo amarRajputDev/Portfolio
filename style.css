@@ -402,3 +402,81 @@ body{
 .detail h5{
     color: #05f75a;
 }
+
+/* Project made  */
+.projects{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #000030;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url("assets/project/landingpage.png");
+        background-size: 100% 100%;
+    }
+    20%{background-image: url("assets/project/signup.png");
+    background-size: 100% 100%;
+    }
+    
+    40%{background-image: url("assets/project/login.png");
+    background-size: 100% 100%;
+    }
+    60%{background-image: url("assets/project/homepage.png");
+    background-size: 100% 100%;
+    }
+    80%{background-image: url("assets/project/darkmode.png");
+    background-size: 100% 100%;
+    }
+    100%{background-image: url("assets/project/profilrpage.png");
+    background-size: 100% 100%;
+    }
+
+
+}
+.project{
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#s{
+    margin: auto;
+}
+.project div{
+    height: 190px;
+    width: 409px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-size: 100% 100%;
+    animation-name: slider;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* background: url("assets/project/landingpage.png"); */
+} 
+.project-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.projects h2{
+    font-size: 2rem;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project p{
+    margin: -20px 5px 0 5px;
+}
