@@ -405,7 +405,7 @@ body{
 
 /* Project made  */
 .projects{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -479,4 +479,63 @@ body{
 }
 .project p{
     margin: -20px 5px 0 5px;
+}
+
+/* MESSAGE SYSTEM */
+
+.connect-section{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+.connect-section h2{
+    font-size: 2rem;
+}
+.message{
+    width: 60%;
+    height: 60%;
+    border: 2px solid;
+    margin: auto;
+    display: flex;
+}
+.connect-section h2 span{
+    color: #B721FF;
+}
+.mes{
+    width: 50%;
+    height: 100%;
+}
+.con-input{
+    border: 1px solid;
+    width: 60%;
+    border-radius: 5px;
+    height: 40px;
+    margin: auto auto;
+    margin-top: 30px;
+}
+input{
+    border: none;
+    width: 85%;
+    outline: none;
+    height: 90%;
+}
+.mes-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+form{
+    width: 100%;
+}
+.in{
+    display: flex;
+}
+textarea{
+    max-width: 50px;
 }
