@@ -622,8 +622,182 @@ textarea{
    .size-center{
     display: none;
    }
+   .opt{
+    height: 273px;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    margin-top: -273px;
+    z-index: 1;
+    background-color: #f3f1f6;  
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    animation: slide 0.5s ease-in 1 
+   }
+
+   ul{
+    flex-direction: column;
+    /* margin-top: 91px; */
+    margin-top: -160px;
+    transition: 3s;
+    animation: slide 0.5s ease-in 1 
+   }
    .hire{
     display: none;
    }
+   .left img {
+    border-radius: 50%;
+    width: 51px;
+    margin-top: 17px;
+    margin-left: 39px;
+    z-index: 2;
+}
+.nav-con {
     
+    justify-content: space-between;
+}
+.main-right{
+    display: none;
+}
+.main-left h1 {
+    font-size: 3rem;
+}
+.main-left h1 span {
+    color: rgb(253, 145, 4);
+    font-size: 4rem;
+}
+.main-left {
+    margin-left: -46px;
+    width: 76%;
+    
+}
+.main-left h3 {
+    margin-top: -31px;
+}
+.about-right h1 {
+    margin-left: 112px;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: -323px;
+    gap: 10px;
+}
+.about-me {
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+}
+.details {
+    margin-top: 83px;
+    font-size: 1rem;
+}
+.details p {
+    font-size: 0.93rem;
+    margin-top: -10px;
+}
+.ab{
+    margin-left: 136px;
+    margin-bottom: 10px;
+}
+.about-left {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 15%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 69px;
+}
+.about-left img {
+    width: 171px;
+    margin-left: -73px;
+} 
+.about-right {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.details h3 {
+    font-size: 2.5rem;
+    margin-top: -24px;
+}
+.details {
+    margin-top: 27px;
+}
+.skill-con{
+    padding: 35px;
+    row-gap: 33px;
+    column-gap: 2px;
+}
+.skill-item{
+    height: 96px;
+    width: 19%;
+}
+.education{
+    text-align: center;
+}
+.school{
+    gap: 0;
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.school img{
+    display: none;
+}
+.project div {
+    height: 97px;
+    width: 169px;
+}
+.mes-left{
+    display: none;
+}
+.mes-right{
+    width: 100%;
+}
+.message{
+    height: 87%;
+    background: url("assets/contact1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.con-input{
+    background: rgba(255, 255, 255, 0.996);
+}
+input{
+    background: rgba(143, 37, 185, 0);
+}
+textarea{
+    background: rgba(143, 37, 185, 0);
+
+}
+}
+
+
+
+
+
+.menu{
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    background-color:#f3f1f6 ;
+    font-size: large;
+}
+@keyframes slide {
+    from{
+        margin-top: -160px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 60px;
+        opacity: 1;
+    }
 }
