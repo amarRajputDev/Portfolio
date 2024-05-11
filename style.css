@@ -781,7 +781,7 @@ textarea{
 
 @media screen and (max-width:375px){
     .hero {
-        width: 95vw;
+        width: 100vw;
     }
     .opt{
         width: 100vw;
@@ -822,11 +822,11 @@ textarea{
         margin-left: -10px;
     }
     #edu{
-        width: 94vw;
+        width: 100vw;
 
     }
     #work{
-        width: 94vw;
+        width: 100vw;
     }
     .message {
         margin-left: 10px;
@@ -843,10 +843,10 @@ textarea{
         margin-left:0%;
     }
     .about-me{
-        width: 94vw;
+        width: 100vw;
     }
     .connect-section{
-        width: 95vw;
+        width: 100vw;
     }
 }
  
