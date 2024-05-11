@@ -18,8 +18,8 @@ btn.addEventListener("click", () => {
         console.log("true")
     }
     else{
-        back.style.animation = "animation: slide 1s ease-in 1 reverse"
-        ul.style.animation = "animation: slide 1s ease-in 1 reverse"
+        back.style.animation = "animation: slide 1s ease-in 0s 1 reverse;"
+        ul.style.animation = "animation: slide 1s ease-in 0s 1 reverse;"
         ul.style.marginTop = "-160px"
         back.style.marginTop = "-273px"
         

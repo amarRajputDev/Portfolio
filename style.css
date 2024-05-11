@@ -618,9 +618,10 @@ textarea{
 }
 
 /* mobile L */
-@media screen and (max-width:426px){
+@media screen and (max-width:500px){
    .size-center{
     display: none;
+    
    }
    .opt{
     height: 273px;
