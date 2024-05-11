@@ -781,43 +781,56 @@ textarea{
 
 @media screen and (max-width:375px){
     .hero {
-        width: 114vw;
+        width: 95vw;
     }
     .opt{
-        width: 113vw;
+        width: 100vw;
 
     }
     .about-right h1 {
-        margin-left: 110px;
+        margin-left: 56px;
         font-size: 1.5rem;
         position: absolute;
-        margin-top: -344px;
+        margin-top: -318px;
         gap: 10px;
     }
+    .about-right{
+        width: 81%;
+        text-align: start;
+    }
+    .skill-item1 img{
+        width: 241px;
+    }
     .ab {
-        margin-left: 108px;
+        margin-left: 61px;
         margin-bottom: 10px;
     }
     #skl{
-        width: 114vw;
+        width: 94vw;
     }
     .details {
         margin-top: 27px;
         margin-left: 50px;
+    }
+    .details p {
+        font-size: 0.93rem;
+        margin-top: -10px;
+        margin-left: -46px;
     }
     .about-left img {
         width: 171px;
         margin-left: -10px;
     }
     #edu{
-        width: 113vw;
+        width: 94vw;
 
     }
     #work{
-        width: 113vw;
+        width: 94vw;
     }
     .message {
-        width: 112%;
+        margin-left: 10px;
+        width: 89%;
     }
     .project div {
         height: 97px;
@@ -825,6 +838,15 @@ textarea{
     }
     .projects h2 {
         font-size: 1.5rem;
+    }
+    .about-left{
+        margin-left:0%;
+    }
+    .about-me{
+        width: 94vw;
+    }
+    .connect-section{
+        width: 95vw;
     }
 }
  
