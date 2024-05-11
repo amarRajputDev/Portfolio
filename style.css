@@ -779,6 +779,56 @@ textarea{
 }
 }
 
+@media screen and (max-width:375px){
+    .hero {
+        width: 114vw;
+    }
+    .opt{
+        width: 113vw;
+
+    }
+    .about-right h1 {
+        margin-left: 110px;
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: -344px;
+        gap: 10px;
+    }
+    .ab {
+        margin-left: 108px;
+        margin-bottom: 10px;
+    }
+    #skl{
+        width: 114vw;
+    }
+    .details {
+        margin-top: 27px;
+        margin-left: 50px;
+    }
+    .about-left img {
+        width: 171px;
+        margin-left: -10px;
+    }
+    #edu{
+        width: 113vw;
+
+    }
+    #work{
+        width: 113vw;
+    }
+    .message {
+        width: 112%;
+    }
+    .project div {
+        height: 97px;
+        width: 156px;
+    }
+    .projects h2 {
+        font-size: 1.5rem;
+    }
+}
+ 
+ 
 
 
 
