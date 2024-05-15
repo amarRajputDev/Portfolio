@@ -323,7 +323,7 @@ body{
     font-size: 1.1rem;
 }
 .details{
-    margin-top: 134px;
+   
     font-size: 1rem;
 }
 .details h3{
@@ -698,6 +698,7 @@ textarea{
 }
 .main-left h3 {
     margin-top: -31px;
+   
 }
 .about-right h1 {
     margin-left: 112px;
@@ -723,7 +724,9 @@ textarea{
 }
 .details p {
     font-size: 0.93rem;
-    margin-top: -10px;
+    text-align: center;
+    margin-left: -11px;
+
 }
 .ab{
     margin: auto;
@@ -751,6 +754,7 @@ textarea{
 .details h3 {
     font-size: 2.5rem;
     margin-top: -24px;
+    
 }
 .details {
     margin-top: 27px;
